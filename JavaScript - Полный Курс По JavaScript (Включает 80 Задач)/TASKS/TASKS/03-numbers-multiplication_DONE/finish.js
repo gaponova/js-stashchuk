@@ -7,3 +7,11 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+const dollar = 40;
+
+const quantity = 10000;
+
+const sum = dollar * quantity;
+
+console.log(sum);

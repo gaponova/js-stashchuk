@@ -667,58 +667,100 @@
 
 /*---------------------------*/
 
-class Comment {
-  constructor(text) {
-    this.text = text
-    this.votesQty = 0
-  }
+// class Comment {
+//   constructor(text) {
+//     this.text = text
+//     this.votesQty = 0
+//   }
 
-  upvote() {
-    this.votesQty += 1
-  }
-}
+//   upvote() {
+//     this.votesQty += 1
+//   }
+// }
 
-const firstComment = new Comment('First comment')
+// const firstComment = new Comment('First comment')
 
-firstComment.upvote()
-console.log(firstComment.votesQty)
+// firstComment.upvote()
+// console.log(firstComment.votesQty)
 
-firstComment.upvote()
-console.log(firstComment.votesQty)
+// firstComment.upvote()
+// console.log(firstComment.votesQty)
 
-firstComment.upvote()
-console.log(firstComment.votesQty)
+// firstComment.upvote()
+// console.log(firstComment.votesQty)
 
-firstComment.upvote()
-console.log(firstComment.votesQty)
+// firstComment.upvote()
+// console.log(firstComment.votesQty)
 
-firstComment.hasOwnProperty('text')
-firstComment.hasOwnProperty('votesQty')
+// firstComment.hasOwnProperty('text')
+// firstComment.hasOwnProperty('votesQty')
 
-console.log(firstComment.hasOwnProperty('text'))
-console.log(firstComment.hasOwnProperty('votesQty'))
+// console.log(firstComment.hasOwnProperty('text'))
+// console.log(firstComment.hasOwnProperty('votesQty'))
 
-firstComment.hasOwnProperty('upvote')
-firstComment.hasOwnProperty('hasOwnProperty')
+// firstComment.hasOwnProperty('upvote')
+// firstComment.hasOwnProperty('hasOwnProperty')
 
-console.log(firstComment.hasOwnProperty('upvote'))
-console.log(firstComment.hasOwnProperty('hasOwnProperty'))
+// console.log(firstComment.hasOwnProperty('upvote'))
+// console.log(firstComment.hasOwnProperty('hasOwnProperty'))
 
 /*---------------------------*/
 
-class Comment {
-  constructor(text) {
-    this.text = text
-    this.votesQty = 0
-  }
+// class Comment {
+//   constructor(text) {
+//     this.text = text
+//     this.votesQty = 0
+//   }
 
-  upvote() {
-    this.votesQty += 1
-  }
+//   upvote() {
+//     this.votesQty += 1
+//   }
 
-  static mergeComments(first, second) {
-    return `${first} ${second}`
-  }
-}
+//   static mergeComments(first, second) {
+//     return `${first} ${second}`
+//   }
+// }
 
-Comment.mergeComments('First comment. ', 'Second comment.')
+// Comment.mergeComments('First comment. ', 'Second comment.')
+
+/*---------------------------*/
+
+// class NumbersArray extends Array {
+//   sum() {
+//     return this.reduce((el, acc) => acc += el, 0)
+//   }
+// }
+
+// const myArray = new NumbersArray(2, 5, 7)
+
+// console.log(myArray)
+// console.log(myArray.sum())
+
+/*---------------------------*/
+
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+//   .then(response => response.json())
+//   .then(json => console.log(json))
+//   .catch(error => console.error(error))
+
+// fetch('https://jsonplaceholder.typicode.com/todos')
+//   .then((response) => {
+//     console.log(response)
+//     return response.json()
+//   })
+//   .then(json => console.log(json))
+//   .catch(error => console.error(error))
+
+/*---------------------------*/
+
+// function add(a, b, c) {
+//   // Change code above this line
+//   res = a + b + c;
+//   console.log(`Addition result equals ${res}`);
+// };
+
+// add(15, 27, 10);
+// add(10, 20, 30);
+// add(5, 10, 15);
+
+/*---------------------------*/

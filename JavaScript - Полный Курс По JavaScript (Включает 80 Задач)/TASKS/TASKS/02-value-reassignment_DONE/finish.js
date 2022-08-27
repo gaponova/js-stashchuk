@@ -11,14 +11,11 @@
  * 5. Выведите значение переменной в консоль
  */
 
-let isStudent
+let isStudent;
+console.log(isStudent);
 
-console.log(isStudent)
+isStudent = true;
+console.log(isStudent);
 
-isStudent = true
-
-console.log(isStudent)
-
-isStudent = false
-
-console.log(isStudent)
+isStudent = false;
+console.log(isStudent);
